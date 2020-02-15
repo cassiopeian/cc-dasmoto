@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+}
+#background {
+    background-image: url("../images/shingle-pattern.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: -600px;
+    width: 50%;
+}
+/* HEADER */
+
+header {
+    background-color: #1f2c48;
+    height: 330px;
+    text-align: center;
+}
+#logo {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    padding-top: 20px;
+}
+h1 {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 40px;
+    font-weight: 200;
+    color: #f9f9f0;
+    padding-top: 10px;
+}
+#title-tag {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    color: #f9f9f0;
+    border-top: 1px solid #8be4c6;
+    border-bottom: 1px solid #8be4c6;
+}
+
+/* MAIN */
+
+h2 {
+    font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0;
+}
+#brushes {
+    background-color: mediumspringgreen;
+}
+#frames {
+    background-color: lightcoral;
+}
+#paint {
+    background-color: skyblue;
+}
+.product-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.product-container.last {
+    margin-bottom: 25px;
+}
+.text {
+    margin-left: 20px;
+}
+h3, .descriptions {
+    font-family: 'Montserrat', sans-serif;
+    color: #292624; 
+}
+h3 {
+    font-size: 18px;
+    font-weight: 800;
+}
+.descriptions {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: justify;
+    word-break: normal;
+    line-height: 1.7em;
+    padding: 20px 0 15px 0;
+}
+.prices {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: #254f9e;
+    text-align: right;
+}
+
+/* FOOTER */
+
+footer {
+    position: relative;
+	width: 100%;
+    bottom: 0;
+    background-color: #8be4c6;
+}
+#upper-footer {
+    display: flex;
+    padding: 30px 0;
+}
+.foot-head {
+    /* color: #4d6b86; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: #f9f9f0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+tr, td {
+    vertical-align: top;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: #665b4f;
+    /* color: #08104a; */
+}
+#contact, #follow, #social-icons-container {
+    margin: 0 auto;
+}
+#social-icons-container {
+    margin-top: 30px;
+}
+.contact-icons {
+    width: 14px;
+    margin-right: 7px;
+}
+.social-icons {
+    list-style: none;
+    display: inline-block;
+    font-size: 21px;
+    padding-left: 30px;
+}
+.first.social-icons {
+    padding-left: 0;
+}
+.social-icons a:link,
+.social-icons a:visited {
+    color: #58848c;
+    text-decoration: none;
+}
+.fab.fa-facebook-f:hover {
+    color: #3b5998;
+    transition: .5s;
+}
+.fab.fa-twitter:hover {
+    color: #1da1f2;
+    transition: .5s;
+}
+.fab.fa-instagram:hover {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 97%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 97%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 97%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: .5s;
+}
+.fab.fa-pinterest-p:hover {
+    color: #c8232c;
+    transition: .5s;
+}
+.fab.fa-youtube:hover {
+    color: #ff0000;
+    transition: .5s;
+}
+#lower-footer {
+    padding: 10px 20px;
+}
+#copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #58848c;
+    display: block;
+    border-top: 1px solid #6ad0ad;
+    padding: 10px 0;
+}
