@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 * {
     padding: 0;
     margin: 0;
@@ -13,6 +15,7 @@ body {
     background-position-x: -600px;
     width: 50%;
 }
+
 /* HEADER */
 
 header {
@@ -109,7 +112,6 @@ footer {
     padding: 30px 0;
 }
 .foot-head {
-    /* color: #4d6b86; */
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 800;
@@ -124,9 +126,9 @@ tr, td {
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 1.5em;
     color: #665b4f;
-    /* color: #08104a; */
+    padding-bottom: 10px;
 }
 #contact, #follow, #social-icons-container {
     margin: 0 auto;
@@ -192,4 +194,31 @@ tr, td {
     display: block;
     border-top: 1px solid #6ad0ad;
     padding: 10px 0;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 680px) {
+    h1 {
+        font-size: 35px;
+    }
+    .product-container {
+        flex-direction: column;
+    }
+    .text {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    #upper-footer {
+        flex-direction: column;
+    }
+    #contact {
+        width: 227.88px;
+    }
+    #social-icons-container {
+        margin-top: 0;
+    }
+    #follow {
+        margin-top: 20px;
+    }
 }
